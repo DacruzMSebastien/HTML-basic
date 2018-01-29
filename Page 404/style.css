@@ -1,0 +1,35 @@
+body {
+
+  text-align: center;
+
+}
+
+p
+{
+   margin:-5px;
+}
+
+.nb {
+  font-size: 300px;
+  background-color: blue;
+  color: white;
+}
+
+.pnf {
+  font-size: 100px;
+  color: blue;
+}
+
+.taille {
+  font-size: 50px;
+  color: blue;
+
+}
+
+
+.bouton {
+
+  padding-top: 50px; /*permet le centrage vertical*/
+  text-align: center;
+
+}
