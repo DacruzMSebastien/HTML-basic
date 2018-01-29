@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Les bases de l'HTML</title>
+</head>
+<body>
+  <h1>Les bases de l'html</h1>
+  <h2>Les balises</h2>
+  <h3>Les balises paires</h3>
+  <p>Voici plusieurs exemples de balises paires</p>
+    <ul>
+      <li>Pour les titres: h1, h2, h3, h4, h5, h6</li>
+      <li>Pour les paragraphes: p</li>
+      <li>Pour les listes: ul ol li</li>
+      <li>Pour séparer des sections d'un document: div span</li>
+      <li>Pour les emphases: em strong mark </li>
+    </ul>
+  <p>Ce sont donc des balises que l'on retrouve toujours par deux.</p>
+
+
+  <h3>Les balises orphelines</h3>
+  <p>Voici plusieurs exemples de balises orphelines</p>
+    <ul>
+      <li>Pour insérer une image: img</li>
+      <li>Pour sauter une ligne, aussi appelé "retour chariot": br</li>
+      <li>Pour faire une séparation horizontale: hr</li>
+    </ul>
+  <p>Ce sont des balises "auto-fermantes" soit une seule balise, et non deux.</p>
+
+  <h2>Les attributs</h2>
+  <p>Chaque élément HTML peut avoir un ou plusieurs attributs.
+  Ces attributs sont des valeurs supplémentaires qui permettent de configurer les éléments ou d'adapter leur comportement.</p>
+
+
+  <h2>La différence entre l'inline et et block</h2>
+  <p>En HTML, les éléments en ligne (inline elements en anglais) sont ceux qui <strong>occupent l'espace délimités par leurs balises</strong> plutôt que d'interrompre le flux du contenu.</p>
+  <p>Pour les éléments block, cela réside dans le fait qu'ils sont <strong>séparés par un saut de ligne avant et après l'élément</strong> (créant ainsi un « bloc » de contenu).
+    On peut, en quelque sorte, les représenter comme des blocs empilés les uns sur les autres. Ce faisant, ils prennent la largeur de leurs conteneurs.</p>
+
+    source <a href="https://developer.mozilla.org/fr/docs/Web/HTML/%C3%89l%C3%A9ments_en_ligne">Inline</a>
+          <a href="https://developer.mozilla.org/fr/docs/Web/HTML/%C3%89l%C3%A9ments_en_bloc">Block<a>
+
+
+  <ul>
+    <li>Exemples de balises inline</li>
+      <ul>
+        <li>La balise span</li>
+        <li>La balise a</li>
+        <li>La balise em</li>
+      </ul>
+  </ul>
+
+  <ul>
+    <li>Exemples de balises block</li>
+      <ul>
+        <li>La balise div</li>
+        <li>La balise nav</li>
+        <li>La balise form</li>
+      </ul>
+  </ul>
+
+  <h2>Le markdown et l'HTML</h2>
+  <p>Il s'agit de 2 langages de déclaration aux propriétés différentes, voici quelques exmples.</p><br/ >
+
+  <p>Pour insérer une image, une citation & un lien youtube</p>
+  <p><strong>en HTML</strong></p>
+  <pre>
+    &ltimg src="URL"&gt
+    &ltblockquote&gtCitation&ltblockquote&gt
+    &lta href="https://www.youtube.com"&lt/a&gt
+  </pre>
+
+  <p><strong>En MARKDOWN</strong></p>
+  <pre>
+    ![texte alternatif](URL "nom")
+    > Citation
+    [Je suis un lien avec un titre](URL "nom")
+  </pre>
+
+
+
+
+
+
+</body>
+</html>
